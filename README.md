@@ -17,7 +17,7 @@ Aggregating these logs into your existing ELK or EFK solution will allow you to 
 * get warned for an alert and react faster 
 
 ## Architecture
-
+![cloudtraillambda](https://github.com/ridowidi/images/blob/master/cloudtraillambda.png)
 
 
 ## How to Install
