@@ -40,6 +40,6 @@ def lambda_handler(event, context):
             data = json.dumps(i)
             print(data)
             logger.emit('cloudtrail', i)
-            logger.close()
         else:
             print("CloudTrail Describe Event - Not Processing")
+    logger.close()
